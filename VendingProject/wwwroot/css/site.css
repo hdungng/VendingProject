@@ -1,0 +1,51 @@
+.item {
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    object-fit: cover;
+    width: 70px;
+    height: 140px;
+}
+
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+.cart-item-img {
+    width: 60px;
+    height: 55px;
+}
+
+
+.delete-icon {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.delete-icon:hover {
+    transition: 0.2s;
+    color: #dc3545;
+}
+.card_2 {
+    margin-top: 43px;
+}
+
+/* CSS for mobile devices (screen width up to 768px) */
+@media (max-width: 1200px) {
+    .res {
+        overflow: auto;
+    }
+}
